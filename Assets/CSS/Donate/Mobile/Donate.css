@@ -6,7 +6,7 @@ main .donate{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 110px;
+    row-gap: 65px;
 }
 
 .donate .mainblog{
@@ -15,8 +15,13 @@ main .donate{
 }
 
 .donate .sideblog{
-    width: 33%;
-    display: none;
+    width: 96%;
+    text-align: center;
+}
+
+.donate .sideblog .post figure img{
+    width: 300px;
+    object-fit: cover;
 }
 
 .donate .mainblog .title span{

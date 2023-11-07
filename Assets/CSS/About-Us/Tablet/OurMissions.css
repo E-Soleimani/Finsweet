@@ -56,11 +56,11 @@ main .ourmissions{
 }
 
 .ourmissions .supporters{
-    width: 92%;
+    width: 96%;
     display: flex;
     flex-flow: column wrap;
     align-items: start;
-    row-gap: 50px;
+    row-gap: 40px;
 }
 
 .ourmissions .supporters .title {
@@ -69,7 +69,7 @@ main .ourmissions{
 
 .ourmissions .supporters .title p{
     color: #1D2130;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
